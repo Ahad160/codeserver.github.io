@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Uncategorized &#8211; Code Server</title>
+	<atom:link href="https://www.codeserver.ml/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.codeserver.ml/</link>
+	<description></description>
+	<lastBuildDate>Mon, 06 Dec 2021 12:09:14 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>NC Cloth</title>
+		<link>https://www.codeserver.ml/2021/12/06/nc-cloth/</link>
+					<comments>https://www.codeserver.ml/2021/12/06/nc-cloth/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Mon, 06 Dec 2021 12:09:14 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://www.codeserver.ml/?p=115</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[
+<pre class="EnlighterJSRAW" data-enlighter-language="c" data-enlighter-theme="monokai" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">#include&lt;stdio.h>
+
+    int main(){
+     
+     //first Part
+      int user;
+      int quantity;
+
+     //scend Part
+      int user2;
+      int quantity2;
+
+     //third Part
+      int user3;
+      int quantity3;
+      
+       printf("1.Renew\n2.Clone\n3.Pending Clone\n");
+       scanf("%d",&amp;user);
+
+     if(user==1)
+    {
+        printf("Quantity\n");
+        scanf("%d",&amp;quantity);
+        
+        printf("Youer Restrict\n---------------\n o Renew option\n o Quantity is %d\n---------------",quantity);
+
+    }
+    else if(user==2)
+    {
+        printf("1.Normal clone\n2.Renew Clone\n");
+        scanf("%d",&amp;user2);
+
+         if(user2==1)
+         {
+            printf("Quantity\n");
+            scanf("%d",&amp;quantity2);
+            printf("Youer Restrict\n----------------------\n o Normal Clone option\n o Quantity is %d\n----------------------",quantity2);
+        }
+
+         else if(user2==2)
+         {
+            printf("Quantity\n");
+            scanf("%d",&amp;quantity2);
+            printf("Youer Restrict\n----------------------\n o Renewly Clone option\n o Quantity is %d\n----------------------",quantity2);
+        }  
+        
+    }
+    else if(user==3){
+
+        printf("1.Renewly Clone\n2.Check Renewly Clone\n");
+        scanf("%d",&amp;user3);
+         
+         if(user3==1)
+         {
+            printf("Quantity\n");
+            scanf("%d",&amp;quantity3);
+         }
+
+         else if(user3==2){
+
+            printf("Youer Restrict\n----------------------\n o Pending Renewly Clone option\n o Quantity is %d\n----------------------",quantity3);
+         }
+    } 
+    
+    return 0;
+}</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.codeserver.ml/2021/12/06/nc-cloth/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

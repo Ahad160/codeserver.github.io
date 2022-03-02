@@ -1,0 +1,113 @@
+/*
+Theme Name: VIP Business Nature
+Theme URI: https://fireflythemes.com/themes/vip-business-nature/
+Author: FireFly Themes
+Author URI: https://fireflythemes.com/
+Description: VIP Business Nature is a multipurpose child theme which inherit features from its parent theme VIP Business. We have crafted this theme with fresh looking unique design keeping nature in mind. This theme can be used if you are building a website related to eco-niche or it can be transformed into any kind of website due to its versatile functionality. Along with its slick modern design VIP Business Nature is 100% responsive and securely coded. On top of that theme has been optimized to load fast, you can also import demo content with plugin One Click Demo Importer. Use VIP Business Nature theme with endless design possibilities to enhance your website and grab attention of you visitors. All this backed up by our Awesome Support team. Visit https://fireflythemes.com/support for support, https://fireflythemes.com/documentation/vip-business-nature for theme documentation and https://demo.fireflythemes.com/vip-business-nature for demo.
+Version: 1.0.0
+Requires at least: 5.5
+Tested up to: 5.8
+Requires PHP: 5.6
+License: GPL-3.0-or-later
+License URI: https://www.gnu.org/licenses/license-list.html#GNUGPLv3
+Text Domain: vip-business-nature
+Template: vip-business
+Tags: blog, news, portfolio, grid-layout, one-column, two-columns, right-sidebar, custom-background, custom-header, custom-logo, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Vip Business Nature Theme WordPress Theme, Copyright 2021 FireFly Themes
+Vip Business Nature Theme is distributed under the terms of the GNU GPL
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.more-link:before,a, a:visited, .section-portfolio .portfolio-content h3 a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, h1 a:focus, h2 a:focus, h3 a:focus, h4 a:focus, h5 a:focus, h6 a:hover, h1 a:active, h2 a:active, h3 a:active, h4 a:active, h5 a:active, h6 a:active, .overlap-header .site-title a:hover, .overlap-header .site-title a:focus, .overlap-header .site-title a:active, .main-navigation ul li.current-menu-item > a, .main-navigation ul li.current-menu-ancestor > a, .main-navigation ul li:hover > a, .main-navigation ul li:hover > a, .main-navigation ul li:hover > a, #main-nav .main-navigation ul ul li.current-menu-item > a, #main-nav .main-navigation ul ul li.current-menu-ancestor > a, #main-nav .main-navigation ul ul li.current_page_item > a, #main-nav .main-navigation ul ul li:hover > a, #main-nav .main-navigation ul ul li a:hover, #main-nav .main-navigation ul ul li a:focus, #main-nav .main-navigation ul ul li a:active #search-toggle:hover, #search-toggle:focus, #breadcrumb li a:hover, #breadcrumb li a:focus, #breadcrumb li a:active, #breadcrumb, #search-toggle:active, .entry-title a:hover, .entry-title a:focus, .entry-title a:active, .entry-meta a:hover, .entry-meta a:focus, .entry-meta a:active, .sidebar ul li a:hover, .sidebar ul li a:focus, .sidebar ul li a:active, .comment-metadata > a:hover, .comment-metadata > a:focus, .comment-metadata > a:active, .nav-inner-wrapper.nav-black-bg .main-navigation ul li.current-menu-item > a, .nav-inner-wrapper.nav-black-bg .main-navigation ul li.current-menu-ancestor > a, .nav-inner-wrapper.nav-black-bg .main-navigation ul li.current_page_item > a, .nav-inner-wrapper.nav-black-bg .main-navigation ul li:hover > a, .nav-inner-wrapper.nav-black-bg .main-navigation ul li:hover > a, .nav-inner-wrapper.nav-black-bg .main-navigation ul li:hover > a, .section-teams .team-position, .counter-section .counter-icon i, .site-title a:hover, .site-title a:focus, .site-title a:active, .footer-widget-area ul li::before, .section .section-top-subtitle, .portfolio-filter a.current, .portfolio-filter a:hover, .section-counter .counter-icon i, .cart-contents a:hover, .cart-contents a:focus, .cart-contents a:active, .footer-widget-area a:active, .footer-widget-area a:focus, .footer-widget-area a:hover, .section-testimonial p.testimonial-position, .featured-page-section ul li:before {
+    color: #38b553;
+}
+#slider-section a.more-link, 
+#slider-section a.more-link:visited,
+#slider-section .swiper-button-next, 
+#slider-section .swiper-button-prev,
+.ff-button, .ff-button:visited, button, a.button, 
+.ff-button.button-secondary:hover, .ff-button.button-secondary:active, 
+.ff-button.button-secondary:focus, input[type="button"], input[type="reset"], 
+input[type="submit"], .woocommerce #respond input#submit, .woocommerce a.button,
+ .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt,
+  .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,
+   #hero-section .featured-info a.more-link, #hero-section .featured-info a.more-link:visited,
+    #promotion-section a.more-link, #promotion-section a.more-link:visited, a.scrollup, 
+    a.scrollup:visited, .footer-widget-area .widget-title:after, .section .section-title-wrap span.divider, 
+    #slider-section .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active, 
+    .cart-contents p.woocommerce-mini-cart__buttons.buttons .button, .sidebar .widget-title:after, 
+    .section-latest-posts .new-cat a, .swiper-carousel-enabled .swiper-pagination-bullet-active, 
+    .swiper-carousel-enabled .swiper-pagination-bullet:hover, .swiper-carousel-enabled .swiper-pagination-bullet:focus, 
+    .swiper-carousel-enabled .swiper-pagination-bullet:active, a.comment-reply-link, .nav-inner-wrapper.nav-color-bg, 
+    .nav-inner-wrapper.nav-color-bg.sticky-enabled.sticky-header, .section .section-title-wrap span.divider:after, .section .title-divider, #slider-section .swiper-slide .divider, .overlap-header .main-navigation ul li.current-menu-item > a:before, .overlap-header .main-navigation ul li.current-menu-ancestor > a:before, .overlap-header .main-navigation ul li.current_page_item > a:before, .overlap-header .main-navigation ul li:hover > a:before, .overlap-header .main-navigation ul li a:hover:before, .overlap-header .main-navigation ul li a:focus:before, #slider-section a.more-link, #slider-section a.more-link:visited, .wwd-item-title:after, .featured-grid-title:after, .section-latest-posts .new-cat a, .post-thumbnail .cat-links a, #playlist-section .mejs-container, #playlist-section .mejs-embed, #playlist-section .mejs-embed body, #playlist-section .mejs-container .mejs-controls, #playlist-section .wp-playlist-tracks .wp-playlist-item.wp-playlist-playing, #playlist-section .wp-playlist-tracks .wp-playlist-item:hover, .pricing-section .pricing-plan-item.recommended .pricing-plan-header, #promotional-headline-section a.more-link, #promotional-headline-section a.more-link:visited, #hero-content-section .featured-info a.more-link, #hero-content-section .featured-info a.more-link:visited, .woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .woocommerce .widget_price_filter .ui-slider .ui-slider-range, #slider-section .swiper-button-next:hover, #slider-section .swiper-button-prev:hover, #slider-section .swiper-button-next:focus, #slider-section .swiper-button-prev:focus, #slider-section .swiper-button-next:active, #slider-section .swiper-button-prev:active, a.more-link:hover, a.more-link:focus, a.more-link:active, .section .section-top-subtitle:before {
+    background-color: #38b553;
+}
+.main-header-one .main-header-top.clear-fix {
+    border-bottom: 3px solid #38b553;
+
+}
+
+#custom-header::after {
+    background: #111211c9;
+}
+#slider-section .swiper-button-next, 
+#slider-section .swiper-button-prev,
+#slider-section a.more-link, 
+#slider-section a.more-link:visited,.ff-button, .ff-button:visited, button, a.button, input[type="button"], 
+input[type="reset"], input[type="submit"], .woocommerce #respond input#submit, .woocommerce a.button, 
+.woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt,
+ .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,
+  .style-one .key-features-wrapper-style-one, .counter-section .counter-icon:before, 
+  #quick-contact.layout-two li:before, #slider-section a.more-link, #slider-section a.more-link:visited, 
+  .section-teams .social-link-plus, .contact-icon, #hero-content-section a.more-link, #hero-content-section a.more-link:visited,
+  #hero-content-section a.more-link, #hero-content-section a.more-link:visited, 
+  #promotional-headline-section a.more-link, #promotional-headline-section a.more-link:visited {
+    background: -moz-linear-gradient( 0deg, #38b553 0%, #00b527 100%);
+    background: -webkit-linear-gradient( 
+0deg, #38b553 0%, #00b527 100%);
+    background: -ms-linear-gradient( 0deg, #38b553 0%, #00b527 100%);
+}
+#slider-section a.more-link:hover, #slider-section a.more-link:focus,#slider-section a.more-link:active,a.ff-button:hover, 
+button:hover, a.button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, 
+button:focus, a.button:focus, a.ff-button:focus, input[type="button"]:focus, input[type="reset"]:focus, 
+input[type="submit"]:focus, button:active, a.ff-button:active, input[type="button"]:active, input[type="reset"]:active, 
+input[type="submit"]:active, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover,
+ .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, 
+ .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, 
+ #hero-content-section a.more-link:hover, #hero-content-section a.more-link:focus, #hero-content-section a.more-link:active,
+ #promotional-headline-section a.more-link:hover, 
+ #promotional-headline-section a.more-link:focus,
+ #promotional-headline-section a.more-link:active{
+    background: -moz-linear-gradient( 0deg, #28964b 0%, #16c400 100%);
+    background: -webkit-linear-gradient( 
+0deg, #28964b 0%, #16c400 100%);
+    background: -ms-linear-gradient( 0deg, #28964b 0%, #16c400 100%);
+}
+
+.sticky .hentry-inner {
+    border: 5px solid #37b552;
+}
+.cart-contents a:hover, .cart-contents a:focus, .cart-contents a:active, #search-toggle:hover, #search-toggle:focus, #search-toggle:active {
+    color: #37b552;
+}
+@media screen and (min-width: 1400px) {
+.main-header-one .site-header-main .ff-grid-2 {
+    width: 20%;
+}
+
+.main-header-one .main-header-wrapper {
+    width: 60%;
+}
+}
+
+@media only screen and (max-width: 639px) {
+    #slider-section .type-post .slider-content-wrapper {
+        padding: 35px 0 80px;
+
+    }
+    .style-three .wwd-block-inner.inner-block-shadow {
+        margin: 20px 0;
+    }
+}

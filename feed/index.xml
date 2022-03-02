@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Code Server</title>
+	<atom:link href="https://www.codeserver.ml/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.codeserver.ml/</link>
+	<description></description>
+	<lastBuildDate>Thu, 17 Feb 2022 19:00:52 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.1</generator>
+	<item>
+		<title>Money_Saveing</title>
+		<link>https://www.codeserver.ml/2022/02/17/money_saveing/</link>
+					<comments>https://www.codeserver.ml/2022/02/17/money_saveing/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 17 Feb 2022 19:00:52 +0000</pubDate>
+				<category><![CDATA[C language]]></category>
+		<guid isPermaLink="false">https://www.codeserver.ml/?p=129</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[
+<pre class="EnlighterJSRAW" data-enlighter-language="c" data-enlighter-theme="monokai" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">#include&lt;stdio.h>
+int saveing(int n);
+    int main(){
+
+    int n;
+    printf("Enter how many days money\n");
+    scanf("%d",&amp; n);
+    printf("%d days money is %d\n",n,saveing(n));
+    
+    return 0;
+}
+int saveing(int n){
+    
+    if(n==1 || n==0){
+        return 0;
+    }
+    int result;
+    result= (n*(n+1))/2;
+}</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.codeserver.ml/2022/02/17/money_saveing/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>KG Mapping</title>
+		<link>https://www.codeserver.ml/2022/02/01/kg-maping/</link>
+					<comments>https://www.codeserver.ml/2022/02/01/kg-maping/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 01 Feb 2022 15:46:00 +0000</pubDate>
+				<category><![CDATA[C language]]></category>
+		<guid isPermaLink="false">https://www.codeserver.ml/?p=125</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[
+<pre class="EnlighterJSRAW" data-enlighter-language="generic" data-enlighter-theme="monokai" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">#include&lt;stdio.h>
+
+    int main(){
+    
+    int a;
+    
+    printf("Enter the Taka Amount\n");
+    scanf("%d",&amp; a);
+
+    printf("%d in 0.5KG is %d \n\n",a,a*50/100);
+
+    printf("%d in 1KG is %d \n\n",a,a*1);
+
+    printf("%d in 1.5KG is %d \n\n",a,a*150/100);
+
+    printf("%d in 2KG is %d \n\n",a,a*2);
+
+
+    return 0;
+}</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.codeserver.ml/2022/02/01/kg-maping/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cylinder Volume Calculator</title>
+		<link>https://www.codeserver.ml/2021/12/14/volume-cylinder-calculator/</link>
+					<comments>https://www.codeserver.ml/2021/12/14/volume-cylinder-calculator/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 14 Dec 2021 08:28:43 +0000</pubDate>
+				<category><![CDATA[C language]]></category>
+		<guid isPermaLink="false">https://www.codeserver.ml/?p=121</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[
+<pre class="EnlighterJSRAW" data-enlighter-language="c" data-enlighter-theme="monokai" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">#include&lt;stdio.h>
+
+    int main(){
+    
+    int height;
+    int radius;
+    float pi=3.14;
+     
+     printf("Enter Youer radius\n");
+     scanf("%d",&amp;radius);
+
+     printf("Enter Youer height\n");
+     scanf("%d",&amp;height);
+
+     printf("The volume of this cylinde is %f\n",pi*radius*radius*height);
+
+
+    return 0;
+}</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.codeserver.ml/2021/12/14/volume-cylinder-calculator/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Area Of Rectangle Calculator</title>
+		<link>https://www.codeserver.ml/2021/12/14/area-of-rectangle-calculator/</link>
+					<comments>https://www.codeserver.ml/2021/12/14/area-of-rectangle-calculator/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 14 Dec 2021 08:04:22 +0000</pubDate>
+				<category><![CDATA[C language]]></category>
+		<guid isPermaLink="false">https://www.codeserver.ml/?p=118</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[
+<pre class="EnlighterJSRAW" data-enlighter-language="c" data-enlighter-theme="monokai" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">#include&lt;stdio.h>
+
+    int main(){
+    
+    int width;
+    int height;
+
+    printf("Enter Width\n");
+    scanf("%d",&amp;width);
+
+    printf("Enter Height\n");
+    scanf("%d",&amp;height);
+
+    printf("Youer Area of Rectangle is %d\n",width*height);
+    
+    return 0;
+}</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.codeserver.ml/2021/12/14/area-of-rectangle-calculator/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NC Cloth</title>
+		<link>https://www.codeserver.ml/2021/12/06/nc-cloth/</link>
+					<comments>https://www.codeserver.ml/2021/12/06/nc-cloth/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Mon, 06 Dec 2021 12:09:14 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://www.codeserver.ml/?p=115</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[
+<pre class="EnlighterJSRAW" data-enlighter-language="c" data-enlighter-theme="monokai" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">#include&lt;stdio.h>
+
+    int main(){
+     
+     //first Part
+      int user;
+      int quantity;
+
+     //scend Part
+      int user2;
+      int quantity2;
+
+     //third Part
+      int user3;
+      int quantity3;
+      
+       printf("1.Renew\n2.Clone\n3.Pending Clone\n");
+       scanf("%d",&amp;user);
+
+     if(user==1)
+    {
+        printf("Quantity\n");
+        scanf("%d",&amp;quantity);
+        
+        printf("Youer Restrict\n---------------\n o Renew option\n o Quantity is %d\n---------------",quantity);
+
+    }
+    else if(user==2)
+    {
+        printf("1.Normal clone\n2.Renew Clone\n");
+        scanf("%d",&amp;user2);
+
+         if(user2==1)
+         {
+            printf("Quantity\n");
+            scanf("%d",&amp;quantity2);
+            printf("Youer Restrict\n----------------------\n o Normal Clone option\n o Quantity is %d\n----------------------",quantity2);
+        }
+
+         else if(user2==2)
+         {
+            printf("Quantity\n");
+            scanf("%d",&amp;quantity2);
+            printf("Youer Restrict\n----------------------\n o Renewly Clone option\n o Quantity is %d\n----------------------",quantity2);
+        }  
+        
+    }
+    else if(user==3){
+
+        printf("1.Renewly Clone\n2.Check Renewly Clone\n");
+        scanf("%d",&amp;user3);
+         
+         if(user3==1)
+         {
+            printf("Quantity\n");
+            scanf("%d",&amp;quantity3);
+         }
+
+         else if(user3==2){
+
+            printf("Youer Restrict\n----------------------\n o Pending Renewly Clone option\n o Quantity is %d\n----------------------",quantity3);
+         }
+    } 
+    
+    return 0;
+}</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.codeserver.ml/2021/12/06/nc-cloth/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Range of Mark To Grade</title>
+		<link>https://www.codeserver.ml/2021/12/04/range-of-mark-to-grade/</link>
+					<comments>https://www.codeserver.ml/2021/12/04/range-of-mark-to-grade/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sat, 04 Dec 2021 13:25:44 +0000</pubDate>
+				<category><![CDATA[C language]]></category>
+		<guid isPermaLink="false">https://www.codeserver.ml/?p=107</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[
+<pre class="EnlighterJSRAW" data-enlighter-language="c" data-enlighter-theme="monokai" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">#include&lt;stdio.h>
+
+    int main(){
+    
+    int mark;
+
+    printf("Enter youer Mark\n");
+    scanf("%d", &amp;mark);
+
+    if(mark&lt;=32){
+
+        printf("You fall \n");
+    }
+        
+    else if(mark>=33 &amp;&amp; mark&lt;39){
+    
+        printf("You got D\n");
+    }
+    
+    else if(mark>=40 &amp;&amp; mark&lt;49){
+    
+        printf("You got C\n");
+    }
+
+    else if(mark>=50 &amp;&amp; mark&lt;59){
+    
+        printf("You got B\n");
+    }
+
+    else if(mark>=60 &amp;&amp; mark&lt;69){
+    
+        printf("You got A-\n");
+    }
+
+    else if(mark>=70 &amp;&amp; mark&lt;79){
+    
+        printf("You got A\n");
+    }
+
+    else if(mark>=80 &amp;&amp; mark&lt;100){
+    
+        printf("You got A+\n");
+    }
+
+    return 0;
+}</pre>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.codeserver.ml/2021/12/04/range-of-mark-to-grade/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Simple calculator</title>
+		<link>https://www.codeserver.ml/2021/12/03/simple-calculator-2/</link>
+					<comments>https://www.codeserver.ml/2021/12/03/simple-calculator-2/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 03 Dec 2021 12:37:58 +0000</pubDate>
+				<category><![CDATA[C language]]></category>
+		<guid isPermaLink="false">https://www.codeserver.ml/?p=101</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[
+<pre class="EnlighterJSRAW" data-enlighter-language="c" data-enlighter-theme="monokai" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">#include&lt;stdio.h>
+int main(){
+    int a;
+    int b1,b2;
+    printf("Simple calculator\n");
+    printf("1.(+)\n2.(-)\n3.(*)\n4.(/)\n");
+    scanf("%d",&amp;a);
+    if(a==1){
+        printf("Enter the first number to (+)\n");
+        scanf("%d",&amp;b1);
+        printf("Enter the secend number to (+)\n");
+        scanf("%d",&amp;b2);
+        printf("Result %d\n",b1+b2); 
+    
+    return 0;
+    }
+    else if(a==2){
+        printf("Enter the first number to (-)\n");
+        scanf("%d",&amp;b1);
+        printf("Enter the secend number to (-)\n");
+        scanf("%d",&amp;b2);
+        printf("Result%d\n",b1-b2);
+    return 0;
+    }
+    else if(a==3){
+        printf("Enter the first number to (*)\n");
+        scanf("%d",&amp;b1);
+        printf("Enter the secend number to (*)\n");
+        scanf("%d",&amp;b2);
+        printf("Result %d\n",b1*b2);
+    return 0;
+    }
+    else if(a==4){
+        printf("Enter the first number to (/)\n");
+        scanf("%d",&amp;b1);
+        printf("Enter the secend number to (/)\n");
+        scanf("%d",&amp;b2);
+        printf("Result %d\n",b1/b2);
+         
+    return 0;
+    }
+  
+      
+    return 0;
+}</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.codeserver.ml/2021/12/03/simple-calculator-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Table</title>
+		<link>https://www.codeserver.ml/2021/12/03/table-2/</link>
+					<comments>https://www.codeserver.ml/2021/12/03/table-2/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 03 Dec 2021 12:37:24 +0000</pubDate>
+				<category><![CDATA[C language]]></category>
+		<guid isPermaLink="false">https://www.codeserver.ml/?p=99</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[
+<pre class="EnlighterJSRAW" data-enlighter-language="c" data-enlighter-theme="monokai" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">#include&lt;stdio.h>
+int main(){
+    
+     int i=1;
+     int user;
+    printf("Enter which number of table you want\n");
+    scanf("%d",&amp;user);
+    
+    while(i&lt;=10){
+        printf("%d x %d = %d\n",user,i,user*i);
+        i++;
+    }
+    return 0;
+}</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.codeserver.ml/2021/12/03/table-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Factorial Number</title>
+		<link>https://www.codeserver.ml/2021/12/03/factorial-number-2/</link>
+					<comments>https://www.codeserver.ml/2021/12/03/factorial-number-2/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 03 Dec 2021 12:36:32 +0000</pubDate>
+				<category><![CDATA[C language]]></category>
+		<guid isPermaLink="false">https://www.codeserver.ml/?p=97</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[
+<pre class="EnlighterJSRAW" data-enlighter-language="c" data-enlighter-theme="monokai" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">#include&lt;stdio.h>
+int main(){
+    
+    int i=1;
+    int user;
+    int factorial=1;
+    printf("The Which number of factorial value you want\n");
+    scanf("%d",&amp;user);
+    for(i;i&lt;=user;i++){
+      factorial*=i;  
+    }
+    printf("The factorial value of %d is %d",user,factorial);
+    return 0;
+}</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.codeserver.ml/2021/12/03/factorial-number-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Prime Number</title>
+		<link>https://www.codeserver.ml/2021/12/03/prime-number-2/</link>
+					<comments>https://www.codeserver.ml/2021/12/03/prime-number-2/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 03 Dec 2021 12:35:24 +0000</pubDate>
+				<category><![CDATA[C language]]></category>
+		<guid isPermaLink="false">https://www.codeserver.ml/?p=95</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[
+<pre class="EnlighterJSRAW" data-enlighter-language="c" data-enlighter-theme="monokai" data-enlighter-highlight="" data-enlighter-linenumbers="" data-enlighter-lineoffset="" data-enlighter-title="" data-enlighter-group="">#include&lt;stdio.h>
+int main(){
+    
+    int i=2;
+    int user;
+    int prime=1;
+    printf("Enter the number\n");
+    scanf("%d",&amp;user);
+    for(i;i&lt;user;i++){
+        if(user%i==0){
+            prime=0;
+            break;
+        }
+    
+    }
+    if(prime==0){
+        printf("%d not a prime number\n",user);
+    }
+    else{
+        printf("%d is a prime\n",user);
+    }   
+    
+    return 0;
+}</pre>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.codeserver.ml/2021/12/03/prime-number-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
